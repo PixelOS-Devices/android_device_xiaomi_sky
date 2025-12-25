@@ -25,6 +25,10 @@ ro.vendor.audio.soundtrigger.xatx.cnn.level=95
 ro.vendor.audio.soundtrigger.xatx.gmm.level=40
 ro.vendor.audio.soundtrigger.xatx.gmm.user.level=40
 ro.vendor.audio.soundtrigger.xatx.vop.level=0
+ro.vendor.audio.us.proximity=true
+ro.vendor.audio.us.proximity_waitfornegative_feature=true
+vendor.qc2audio.suspend.enabled=true
+vendor.qc2audio.per_frame.flac.dec.enabled=true
 
 # Audio feature
 vendor.audio.adm.buffering.ms=2
