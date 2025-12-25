@@ -43,10 +43,6 @@ persist.vendor.sys.provision.status u:object_r:vendor_payment_security_prop:s0
 vendor.sys.feature_state u:object_r:vendor_payment_security_prop:s0
 vendor.sys.rpmb_state u:object_r:vendor_payment_security_prop:s0
 
-# NFC
-ro.vendor.nfc. u:object_r:vendor_nfc_mi_prop:s0
-ro.vendor.se. u:object_r:vendor_nfc_mi_prop:s0
-
 # SLA
 vendor.sla.enabled u:object_r:vendor_slad_prop:s0
 vendor.sla.ifaces u:object_r:vendor_slad_prop:s0
