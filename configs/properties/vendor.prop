@@ -262,3 +262,6 @@ vendor.qcom.vibrator.led.effect_ms_multiplier=5
 
 # WiFi
 wifi.aware.interface=wifi-aware0
+
+# Keystore
+ro.hardware.keystore_desede=true
