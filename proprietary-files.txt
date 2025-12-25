@@ -909,7 +909,6 @@ vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
 vendor/etc/backend_conf.xml
 vendor/etc/card-defs.xml
 vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_c2_audio.xml
 vendor/etc/media_codecs_performance_ravelin.xml
 vendor/etc/media_codecs_ravelin.xml
 vendor/etc/media_profiles.xml
