@@ -1,0 +1,15 @@
+[
+  {
+    "repository": "PixelOS-Devices/android_device_xiaomi_sky-kernel",
+    "target_path": "device/xiaomi/sky-kernel"
+  },
+  {
+    "repository": "PixelOS-AOSP/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_sky",
+    "target_path": "vendor/xiaomi/sky"
+  }
+]
