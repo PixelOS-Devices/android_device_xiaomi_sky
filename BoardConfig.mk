@@ -69,7 +69,7 @@ BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtbs
 BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PATH)/dtbs/dtbo.img
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sky
+$(call soong_config_set,libinit,vendor_init_lib,//$(DEVICE_PATH):libinit_sky)
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sky
 
 # Filesystem
