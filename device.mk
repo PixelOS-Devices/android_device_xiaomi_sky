@@ -66,8 +66,6 @@ PRODUCT_PACKAGES += \
     audioadsprpcd
 
 PRODUCT_PACKAGES += \
-    libagmclient:64 \
-    libagmmixer:64 \
     libbatterylistener:64 \
     libfmpal:64 \
     libqcompostprocbundle:64 \
@@ -98,10 +96,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_ravelin_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ravelin/mixer_paths_ravelin_qrd.xml \
     $(LOCAL_PATH)/configs/audio/resourcemanager_ravelin_qrd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_ravelin/resourcemanager_ravelin_qrd.xml \
     $(LOCAL_PATH)/configs/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
-
-# Audio Graph Manager
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.AGMIPC@1.0-service
 
 # Bluetooth
 PRODUCT_PACKAGES += \
